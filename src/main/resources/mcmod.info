@@ -1,0 +1,16 @@
+[
+{
+  "modid": "immersivebogies",
+  "name": "Immersive Bogies",
+  "description": "Track API Compliance for MTS/IV",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Aunuli"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

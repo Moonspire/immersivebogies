@@ -1,0 +1,2 @@
+https://github.com/AleMax/TrainsMod/blob/master/src/main/java/alemax/trainsmod/entities/EntityRailcar.java#L451
+AEntityVehicleD_Moving - getFollower(): Contains Road Following Logic
