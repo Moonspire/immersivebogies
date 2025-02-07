@@ -62,35 +62,13 @@ repositories {
 }
 
 dependencies {
-    // Specify the version of Minecraft to use, If this is any group other then 'net.minecraft' it is assumed
-    // that the dep is a ForgeGradle 'patcher' dependency. And it's patches will be applied.
-    // The userdev artifact is a special name and will get all sorts of transformations applied to it.
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
     minecraft 'net.minecraftforge:forge:1.12.2-14.23.5.2859'
-
-    // You may put jars on which you depend on in ./libs or you may define them like so..
-    // compile "some.group:artifact:version:classifier"
-    // compile "some.group:artifact:version"
-
-    // Real examples
-    // compile 'com.mod-buildcraft:buildcraft:6.0.8:dev'  // adds buildcraft to the dev env
-    // compile 'com.googlecode.efficient-java-matrix-library:ejml:0.24' // adds ejml to the dev env
-
-    // The 'provided' configuration is for optional dependencies that exist at compile-time but might not at runtime.
-    // provided 'com.mod-buildcraft:buildcraft:6.0.8:dev'
-
-    // These dependencies get remapped to your current MCP mappings
-    // deobf 'com.mod-buildcraft:buildcraft:6.0.8:dev'
 
     implementation fg.deobf('curse.maven:universal-mod-core-371784:4975229')
     implementation fg.deobf('curse.maven:track-api-282613:2825260')
     implementation fg.deobf("curse.maven:immersive-railroading-277736:4970105")
-
-    implementation fg.deobf('curse.maven:minecraft-transport-simulator-286703:5669731')
-
-    // For more info...
-    // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
-    // http://www.gradle.org/docs/current/userguide/dependency_management.html
-
 }
 
 // Example for how to get properties into the manifest for reading by the runtime..

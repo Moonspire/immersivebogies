@@ -1,0 +1,134 @@
+{
+    "rail": {
+        "defaultGauge": 1.0
+    },
+    "motorized": {
+        "isTrailer": true,
+        "emptyMass": 12050,
+        "axleRatio": 1.0,
+        "brakingFactor": 0.0125,
+        "hookupVariables": [
+            "locomotive_air_brake"
+        ],
+        "crashSpeedMin": 1.4,
+        "crashSpeedMax": 22.2
+    },
+    "parts": [
+        {
+            "pos": [0.0, 0.0, 2.9375],
+            "defaultPart": "vehiclesofruun:narrowfreightbogie",
+            "types": [
+                "generic_bogie_narrow"
+            ],
+            "animations": [
+                {
+                    "animationType": "rotation",
+                    "variable": "road_angle_front",
+                    "centerPoint": [0.0, 0.0, 2.9375],
+                    "axis": [0.0, 1.0, 0.0]
+                }
+            ]
+        },
+        {
+            "pos": [0.0, 0.0, -2.9375],
+            "defaultPart": "vehiclesofruun:narrowfreightbogie",
+            "types": [
+                "generic_bogie_narrow"
+            ],
+            "animations": [
+                {
+                    "animationType": "rotation",
+                    "variable": "road_angle_rear",
+                    "centerPoint": [0.0, 0.0, -2.9375],
+                    "axis": [0.0, 1.0, 0.0]
+                }
+            ]
+        },
+        {
+            "pos": [0.0, -0.28125, 4.5625],
+            "defaultPart": "vehiclesofruun:knuckle",
+            "types": [
+                "generic_coupler_knuckle"
+            ],
+            "animations": [
+                {
+                    "animationType": "rotation",
+                    "variable": "road_angle_front",
+                    "centerPoint": [0.0, -0.28125, 4.5625],
+                    "axis": [0.0, 1.0, 0.0]
+                }
+            ]
+        },
+        {
+            "pos": [0.0, -0.28125, -4.5625],
+            "rot": [0.0, 180.0, 0.0],
+            "defaultPart": "vehiclesofruun:knuckle",
+            "types": [
+                "generic_coupler_knuckle"
+            ],
+            "animations": [
+                {
+                    "animationType": "rotation",
+                    "variable": "road_angle_rear",
+                    "centerPoint": [0.0, -0.28125, -4.5625],
+                    "axis": [0.0, 1.0, 0.0]
+                }
+            ]
+        }
+    ],
+    "collisionGroups": [
+        {
+            "collisions": [
+                {
+                    "pos": [0.0, 0.0, 0.0],
+                    "width": 1.0,
+                    "height": 1.0
+                }
+            ]
+        }
+    ],
+    "instruments": [],
+    "definitions": [
+        {
+            "subName": "",
+            "name": "Boxcar [RED]",
+            "extraMaterialLists": [
+                [],
+                []
+            ]
+        }
+    ],
+    "rendering": {
+        "animatedObjects": [],
+        "lightObjects": [],
+        "cameraObjects": [],
+        "customVariables": [],
+        "sounds": [],
+        "particles": [],
+        "modelType": "obj"
+    },
+    "general": {
+        "description": "Testing boxcar",
+        "health": 100,
+        "materialLists": [
+            [
+                "oredict:blockSteel:5",
+                "oredict:plankWood:10"
+            ],
+            [
+                "oredict:blockIron:8",
+                "oredict:plankWood:10"
+            ]
+        ],
+        "repairMaterialLists": [
+            [
+                "oredict:blockSteel:2",
+                "oredict:plankWood:9"
+            ],
+            [
+                "oredict:blockIron:5",
+                "oredict:plankWood:9"
+            ]
+        ]
+    }
+}
