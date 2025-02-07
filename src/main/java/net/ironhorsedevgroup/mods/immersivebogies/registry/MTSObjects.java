@@ -5,13 +5,16 @@ import minecrafttransportsimulator.mcinterface.InterfaceManager;
 import minecrafttransportsimulator.packloading.JSONParser;
 import minecrafttransportsimulator.packloading.PackParser;
 import net.ironhorsedevgroup.mods.immersivebogies.ImmersiveBogies;
-import net.ironhorsedevgroup.mods.immersivebogies.vehicle.RollingStockClassification;
-import net.ironhorsedevgroup.mods.immersivebogies.vehicle.JSONRollingStock;
 import net.ironhorsedevgroup.mods.immersivebogies.packload.JSONStockList;
+import net.ironhorsedevgroup.mods.immersivebogies.vehicle.JSONRollingStock;
+import net.ironhorsedevgroup.mods.immersivebogies.vehicle.RollingStockClassification;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 import java.io.File;
-import java.util.*;
+import java.util.Enumeration;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Objects;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 

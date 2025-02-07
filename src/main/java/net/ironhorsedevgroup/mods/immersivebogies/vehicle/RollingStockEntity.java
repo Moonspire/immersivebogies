@@ -1,9 +1,7 @@
 package net.ironhorsedevgroup.mods.immersivebogies.vehicle;
 
 import cam72cam.immersiverailroading.entity.physics.SimulationState;
-
 import mcinterface1122.WrapperWorld;
-
 import minecrafttransportsimulator.baseclasses.Point3D;
 import minecrafttransportsimulator.entities.instances.APart;
 import minecrafttransportsimulator.entities.instances.EntityVehicleF_Physics;
@@ -15,14 +13,12 @@ import minecrafttransportsimulator.mcinterface.IWrapperPlayer;
 import minecrafttransportsimulator.mcinterface.InterfaceManager;
 import minecrafttransportsimulator.systems.ConfigSystem;
 import net.ironhorsedevgroup.mods.immersivebogies.ImmersiveBogies;
-
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
-
 import trackapi.lib.ITrack;
 import trackapi.lib.ITrackBlock;
 

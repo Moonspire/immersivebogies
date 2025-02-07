@@ -4,7 +4,6 @@ import minecrafttransportsimulator.jsondefs.JSONSubDefinition;
 import minecrafttransportsimulator.jsondefs.JSONVehicle;
 import minecrafttransportsimulator.packloading.JSONParser;
 import minecrafttransportsimulator.packloading.PackResourceLoader;
-import net.ironhorsedevgroup.mods.immersivebogies.ImmersiveBogies;
 
 @JSONParser.JSONDescription("Immersive Railroading compatible Transport Simulator vehicle definitions can be done here")
 public class JSONRollingStock extends JSONVehicle {

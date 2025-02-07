@@ -1,8 +1,8 @@
 package net.ironhorsedevgroup.mods.immersivebogies;
 
 import minecrafttransportsimulator.packloading.CustomClassifications;
-import net.ironhorsedevgroup.mods.immersivebogies.vehicle.JSONRollingStock;
 import net.ironhorsedevgroup.mods.immersivebogies.registry.MTSObjects;
+import net.ironhorsedevgroup.mods.immersivebogies.vehicle.JSONRollingStock;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
